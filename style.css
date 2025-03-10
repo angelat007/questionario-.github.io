@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#inputRatio {
+    display: flex;
+    display: inline-flex;
+}
+
+#submit {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 77px;
+    width: 650px;
+    height: 45px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 4px;
+}
+
+#submit:active {
+    background-color: rgb(117, 33, 196);
+    transition: 0.1s;
+    width: 650px;
+}
+
+main {
+    width: 650px;
+    height: 57vh;
+    border-radius: 5px;
+    border: 1px solid black;
+}
